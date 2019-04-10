@@ -159,7 +159,7 @@ gulp.task(
     browserSync.init([
       paths.site + '/**/*',
     ], {
-      proxy: 'hotsite.dev',
+      proxy: 'isaacyung.github.io',
       notify: false
     });
 
